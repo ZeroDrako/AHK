@@ -26,7 +26,7 @@ ChangeVolume(d := 1, w := True) {
     SoundSet % Format("{:+d}", o)
 }
 
-ChangeVolumeAlternative(direction := 1, show_osd := True) {
+ChangeVolumeExplained(direction := 1, show_osd := True) {
     ; Define some static values
     static volume_limit := 20   ; limit to change between small/big step
     static step_small := 5      ; big step to increase/decrease above the "limit"
